@@ -44,7 +44,7 @@ var cheerioHtmlFile = function(htmlfile) {
 };
 
 var cheerioHtml = function(html) {
-console.log(html);
+
     return cheerio.load(html);
 }
 
